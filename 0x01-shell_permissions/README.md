@@ -6,3 +6,8 @@
 5. chmod u+x (file) writes a scriot that adds execute permissions to the owners (file)
 6. chmod 754 hello.
 7. chmod a+u ./hello writes the script that adds execution permission to the owers (file)
+8. 
+9.
+10.
+11.
+12.

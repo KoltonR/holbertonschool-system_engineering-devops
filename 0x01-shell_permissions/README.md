@@ -27,3 +27,5 @@
 13. chgrp school hello writes a script that changes the group owner to school for the file hello
 
 14. chown -R: staff writes  a script that changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
+
+15. chown -h vincent:staff_hello Writes a script that changes the owner and the group owner of _hello to vincent and staff respectively.

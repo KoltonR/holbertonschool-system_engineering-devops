@@ -1,2 +1,2 @@
 #!/bin/bash
-PATH=$(id -un) 
+DIRS=$(find . -type d -mindepth $n)

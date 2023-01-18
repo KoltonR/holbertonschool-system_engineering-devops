@@ -1,0 +1,2 @@
+#!/bin/bash
+path_dir_count=$(echo $PATH | tr ':' '\n' | wc -l)

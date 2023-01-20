@@ -7,10 +7,3 @@ do
     echo "Best School"
     ((COUNTER-=1))
 done
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status

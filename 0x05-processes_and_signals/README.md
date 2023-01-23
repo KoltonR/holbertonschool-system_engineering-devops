@@ -34,4 +34,7 @@ while true; do
 # This script kills a process using command kill
 kill "$(ps -x | pgrep -f beyond)" Writes a Bash script that stops 4-to_infinity_and_beyond process.
 
+6. #!/usr/bin/env bash
+# This script kills 4-to_infinity_and_beyond without kill or killall
+pkill -f beyond. Write a Bash script that stops 4-to_infinity_and_beyond process.
 

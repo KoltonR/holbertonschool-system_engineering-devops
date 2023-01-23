@@ -29,3 +29,9 @@ while true; do
     echo "To infinity and beyond"
         sleep 2
 	done. Write a Bash script that displays To infinity and beyond indefinitely.
+
+5. #!/usr/bin/env bash
+# This script kills a process using command kill
+kill "$(ps -x | pgrep -f beyond)" Writes a Bash script that stops 4-to_infinity_and_beyond process.
+
+

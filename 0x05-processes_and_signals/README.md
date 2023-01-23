@@ -50,3 +50,6 @@ while true; do
         sleep 2
 	done. Write a Bash script that displays:
 
+8. #!/usr/bin/env bash
+# This script kills the process 7-highlander
+kill -9 "$(pgrep -f highlander)". a Bash script that kills the process 7-highlander.

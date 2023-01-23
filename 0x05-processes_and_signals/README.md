@@ -1,4 +1,4 @@
-0. #!/usr/bin/env bash
+0;10;1c0;10;1c0. #!/usr/bin/env bash
 # This script  displays its PID.
 
 echo $$. Writes a Bash script that displays its own PID.
@@ -37,4 +37,16 @@ kill "$(ps -x | pgrep -f beyond)" Writes a Bash script that stops 4-to_infinity_
 6. #!/usr/bin/env bash
 # This script kills 4-to_infinity_and_beyond without kill or killall
 pkill -f beyond. Write a Bash script that stops 4-to_infinity_and_beyond process.
+
+7. #!/usr/bin/env bash
+# This script displays
+# to infinity and beyond indefinitely
+# With a sleep 2 in between each iteration
+# I am invincible!!! when receiving a SIGTERM signal
+
+trap 'echo "I am invincible!!!"' 15
+while true; do
+    echo "to infinity and beyond"
+        sleep 2
+	done. Write a Bash script that displays:
 

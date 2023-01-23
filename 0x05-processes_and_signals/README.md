@@ -18,5 +18,8 @@ ps -a -x -u -f. Write a Bash script that displays a list of currently running pr
 
 ./1-list_your_processes | grep "bash" ash script that displays lines containing the bash word, thus allowing you to easily get the PID of your Bash process.
 
-3.
+3.#!/usr/bin/env bash
+# This script displays the PID, along with process name of processes containing the word bash
+# cannot use p s
+pgrep -l bash Writes a Bash script that displays the PID, along with the process name, of processes whose name contain the word bash.
 

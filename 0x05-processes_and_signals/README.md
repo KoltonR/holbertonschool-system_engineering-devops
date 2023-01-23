@@ -23,3 +23,9 @@ ps -a -x -u -f. Write a Bash script that displays a list of currently running pr
 # cannot use p s
 pgrep -l bash Writes a Bash script that displays the PID, along with the process name, of processes whose name contain the word bash.
 
+4. #!/usr/bin/env bash
+# This script displays a statement indefinitely
+while true; do
+    echo "To infinity and beyond"
+        sleep 2
+	done. Write a Bash script that displays To infinity and beyond indefinitely.
